@@ -24,7 +24,7 @@ When attempting to divide by zero, an `ArithmeticException("division by zero !")
 
 ## Technologies
 - JUnit version 4.13.2
-- Java version 17
+- Java version 20
 
 ## Instructions for Running the Project
 ### Cloning the Project
