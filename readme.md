@@ -1,27 +1,43 @@
-# Rational
-Класс для работы с рациональными числами, т.е. числами, которые можно представить в виде обыкновенной дроби, в которой числитель и знаменатель — целые числа. Примеры чисел: `1/2`, `3/4`, `-5/2`.
+# About the Project
+This repository was created as part of the "QA Mobile" course at Tinkoff Fintech, Spring 2023.
 
-&nbsp;
+## Project Description
+### Rational
+The Rational class provides functionality for working with rational numbers, which can be represented as a fraction where the numerator and denominator are integers. Examples of rational numbers are 1/2, 3/4, -5/2.
 
-Класс позволяет создавать объекты обыкновенных дробей с заданными числителем и знаменателем или же со значением по умолчанию (`0`/`1`).
+The class allows creating objects of rational numbers with specified numerator and denominator or with default values (0/1).
 
-При попытке создания дроби с нулевым знаменателем генерируется исключение `ArithmeticException("division by zero !")`.
+When attempting to create a fraction with a zero denominator, an `ArithmeticException("division by zero !")` exception is thrown.
 
-Если дробь отрицательна, минус стоит перед числителем.
+If the fraction is negative, a minus sign is placed before the numerator.
 
-При создании дроби она сокращается, если такая возможность есть. Например, дробь `5/10` сократится до `1/2`.
+When creating a fraction, it is reduced if possible. For example, the fraction 5/10 will be reduced to 1/2.
 
-&nbsp;
+The class also provides functionality for performing basic operations with rational numbers:
+- addition, subtraction, multiplication, and division;
+- comparison: equal, less than, less than or equal to.
 
-Также класс предоставляет возможность проводить с обыкновенными дробями
+When attempting to divide by zero, an `ArithmeticException("division by zero !")` exception is thrown.
 
-- элементарные операции: сложение, вычитание, умножение, деление.
+## Project Team
+- Oleg Komissarov - QA Engineer
 
-- сравнения: на равно, на меньше, на меньше или равно.
+## Technologies
+- JUnit version 4.13.2
+- Java version 17
 
-При попытке деления на ноль генерируется исключение `ArithmeticException("division by zero !")`.
+## Instructions for Running the Project
+### Cloning the Project
+To clone the project, use the following command:
 
-# Tests
-Класс с примером теста на класс `Rational`. 
+```bash
+git clone https://github.com/your_username/Rational.git
+```
 
-Пример теста (`void testStandardConstructor()`), проверяет значения числителя и знаменателя стандартного экземпляра класса.
+### Running the Project
+Before running the project, ensure that the Rational.jar file is in the root directory of the project.
+
+To run the project, execute the following command:
+```bash
+java -jar Rational.jar
+```
