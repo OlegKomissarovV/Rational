@@ -19,6 +19,31 @@ The class also provides functionality for performing basic operations with ratio
 
 When attempting to divide by zero, an `ArithmeticException("division by zero !")` exception is thrown.
 
+### Tests
+The DivideTest class contains a parameterized test to verify the `Rational divide(Rational rational)` method of the Rational class.
+
+The EqualsTest class contains a parameterized test to verify the `boolean equals(Object obj)` method of the Rational class.
+
+The GetDenominatorTest class contains a parameterized test to verify the `int getDenominator()` method of the Rational class.
+
+The GetNumeratorTest class contains a parameterized test to verify the `int getNumerator()` method of the Rational class.
+
+The LessOrEqualTest class contains a parameterized test to verify the `boolean lessOrEqual(Rational rational)` method of the Rational class.
+
+The LessTest class contains a parameterized test to verify the `boolean less(Rational rational)` method of the Rational class.
+
+The MinusTest class contains a parameterized test to verify the `Rational minus(Rational rational)` method of the Rational class.
+
+The MultiplyTest class contains a parameterized test to verify the `Rational multiply(Rational rational)` method of the Rational class.
+
+The PlusTest class contains a parameterized test to verify the `Rational plus(Rational rational)` method of the Rational class.
+
+The RationalExceptionTest class contains tests to verify the exceptions thrown by the Rational class.
+
+The ToStringTest class contains a parameterized test to verify the `String toString()` method of the Rational class.
+
+The TestRunner class runs all the other test classes.
+
 ## Project Team
 - Oleg Komissarov - QA Engineer
 
