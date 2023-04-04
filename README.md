@@ -56,7 +56,7 @@ The TestRunner class runs all the other test classes.
 To clone the project, use the following command:
 
 ```bash
-git clone https://github.com/your_username/Rational.git
+git clone https://github.com/OlegKomissarovV/Rational.git
 ```
 
 ### Running the Project
